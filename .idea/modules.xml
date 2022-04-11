@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/money_management.iml" filepath="$PROJECT_DIR$/.idea/money_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Examples/typesExample/.idea/react-redux-ts-course.iml" filepath="$PROJECT_DIR$/../Examples/typesExample/.idea/react-redux-ts-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../socialNetwork/.idea/socialNetwork.iml" filepath="$PROJECT_DIR$/../socialNetwork/.idea/socialNetwork.iml" />
     </modules>
   </component>
 </project>
