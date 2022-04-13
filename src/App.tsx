@@ -11,20 +11,25 @@ import {ShoppingList} from "./components/ShoppingList/ShoppingList";
 import {Login} from './components/Login/Login';
 import {useTypedSelector} from "./hooks/useTypedSelector";
 import {useDispatch} from "react-redux";
-import {logout} from "./Store/Redusers/authReducer";
+import {logoutAC} from "./Store/Redusers/authReducer";
+import {shoppingListActions} from "./Store/Redusers/shoppingListReducer";
+
 
 const App = () => {
     const {isAuth} = useTypedSelector(state => state.auth);
     const dispatch = useDispatch();
+    const logout = () => {
+        dispatch(logoutAC());
+        dispatch(shoppingListActions.setDefaultState());
+    }
+
     return (
         <Layout className={s.wrapper}>
             <Header className={s.layoutHeader} style={{background: "white"}}>
                 <div>Money Management</div>
                 {isAuth ? <Button style={{marginTop: "12px"}}
                                   size={"large"}
-                                  onClick={() => {
-                                      dispatch(logout())
-                                  }}
+                                  onClick={logout}
                     >Logout</Button>
                     : <NavLink to={"/login"}> Login </NavLink>
                 }
@@ -32,16 +37,16 @@ const App = () => {
             <Layout className={s.wrapper}>
                 <Sider theme="light">
                     <Menu className={s.navbar} theme="light" mode="inline" defaultSelectedKeys={['1']}>
-                        {/*{isAuth ? <>*/}
+                        {isAuth ? <>
                                 <Menu.Item className={s.menuItem} key="1">
                                     <NavLink to={"/income"}> Доходы </NavLink>
                                 </Menu.Item>
                                 <Menu.Item className={s.menuItem} key="2">
                                     <NavLink to={"/expenses"}> Расходы </NavLink>
                                 </Menu.Item>
-                        {/*    </>*/}
-                        {/*    : <></>*/}
-                        {/*}*/}
+                            </>
+                            : <></>
+                        }
 
                         <Menu.Item className={s.menuItem} key="3">
                             <NavLink to={"/shoppingList"}> Список покупок </NavLink>
