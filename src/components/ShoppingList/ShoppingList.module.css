@@ -1,0 +1,81 @@
+.body{
+    min-width: 500px;
+}
+
+.categories {
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #deaf52;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #8f8686;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.menuItem {
+    font-size: 20px;
+}
+
+.menuItem div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Icon {
+    width: 30px;
+    height: 30px;
+}
+
+.ContentBody {
+    margin-top: 15px;
+}
+
+.CategoryWindow {
+    border: solid 1px #deaf52;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #8f8686;
+    margin-bottom: 10px;
+    min-height: 150px;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.CategoryHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.ButtonBlock {
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.ButtonBlock Button {
+    margin-left: 15px;
+}
+
+.totalPrice {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalPrice Button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 15px;
+    white-space: normal;
+    line-height: 20px;
+}
+

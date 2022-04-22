@@ -1,0 +1,26 @@
+.listItemBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listItem{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.buttonBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.totalPrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    margin-left: 25%;
+}
+
+.expensesItem {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.datePickerWrapper{
+    display: inline-flex;
+    align-items: center;
+
+}
+.datePicker{
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    border: 1px #15a5ed solid;
+    border-radius: 2px;
+    margin-right: 10px;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    margin: 10px;
+    background: #edeceb;
+}
+
+.layoutHeader {
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.layoutBase {
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.navbar {
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.menuItem {
+    font-size: 20px;
+}
+
+.layoutContent {
+    margin: 0 0 0 15px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 24px;
+    min-height: 280px;
+    font-size: 30px;
+
+}

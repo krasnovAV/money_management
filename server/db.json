@@ -1,0 +1,243 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "email": "admin@m.ru",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "email": "user@m.ru",
+      "password": "12345"
+    },
+    {
+      "email": "admi",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "email": "adm",
+      "password": "qwerty",
+      "id": 4
+    }
+  ],
+  "savedCategoriesList": [
+    {
+      "categories": [
+        "шмотки",
+        "Развлечения",
+        "бухло"
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "categories": [
+        "Авто",
+        "Алкашка",
+        "Одежда",
+        "Развлечения"
+      ]
+    },
+    {
+      "categories": [
+        "Продукты",
+        "Счета",
+        "Одежда",
+        "Авто",
+        "бухло"
+      ],
+      "id": 3
+    },
+    {
+      "categories": [
+        "Продукты",
+        "Счета",
+        "Одежда",
+        "Авто"
+      ],
+      "id": 4
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2021-03-14T09:44:19.920Z",
+      "expensesList": [
+        {
+          "title": "Алкашка",
+          "totalCategoryPrice": 100
+        },
+        {
+          "title": "шмотки",
+          "totalCategoryPrice": 150
+        },
+        {
+          "title": "Развлечения",
+          "totalCategoryPrice": 200
+        }
+      ],
+      "totalPrice": 450
+    },
+    {
+      "userId": 1,
+      "date": "2022-02-14T09:44:19.920Z",
+      "totalPrice": 50,
+      "expensesList": [
+        {
+          "title": "Алкашка",
+          "totalCategoryPrice": 50
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "2022-03-14T09:44:19.920Z",
+      "totalPrice": 101,
+      "expensesList": [
+        {
+          "title": "тачка",
+          "totalCategoryPrice": 101
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "date": "2022-3-14",
+      "totalPrice": 61,
+      "expensesList": [
+        {
+          "title": "Продукты",
+          "totalCategoryPrice": 50
+        },
+        {
+          "title": "Одежда",
+          "totalCategoryPrice": 11
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "date": "2022-03-14T09:44:19.920Z",
+      "totalPrice": 184,
+      "expensesList": [
+        {
+          "title": "Алкашка",
+          "totalCategoryPrice": 50
+        },
+        {
+          "title": "тачка",
+          "totalCategoryPrice": 102
+        },
+        {
+          "title": "шмотки",
+          "totalCategoryPrice": 32
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-14T10:12:14.278Z",
+      "totalPrice": 50,
+      "expensesList": [
+        {
+          "title": "шмотки",
+          "totalCategoryPrice": 50
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-15T04:27:39.476Z",
+      "totalPrice": 0,
+      "expensesList": [],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-15T04:27:53.592Z",
+      "totalPrice": 20,
+      "expensesList": [
+        {
+          "title": "шмотки",
+          "totalCategoryPrice": 20
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-19T06:12:06.153Z",
+      "totalPrice": 100,
+      "expensesList": [
+        {
+          "title": "бухло",
+          "totalCategoryPrice": 100
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "income": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2022-03-14T09:44:19.920Z",
+      "income": {
+        "title": "Зарплата",
+        "amount": 1000
+      }
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-20T03:42:55.433Z",
+      "income": {
+        "title": "sfvdvdv",
+        "amount": 100
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-20T04:10:30.251Z",
+      "income": {
+        "title": "ygygygy",
+        "amount": 500
+      },
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-20T04:11:12.532Z",
+      "income": {
+        "title": "Зарплата",
+        "amount": 500
+      },
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-20T06:34:22.726Z",
+      "income": {
+        "title": "sddsddscs",
+        "amount": 50
+      },
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "date": "2022-04-20T06:34:33.309Z",
+      "income": {
+        "title": "Зарплата",
+        "amount": 1000
+      },
+      "id": 6
+    }
+  ]
+}
