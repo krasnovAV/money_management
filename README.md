@@ -1,6 +1,6 @@
 # Стек технологий:
 
-React + React Hooks, TypeScript, Redux Toolkit, RTK Query, CSS-module. В качестве бэкенда использован json server
+React + React Hooks, TypeScript, Redux, CSS-module. В качестве бэкенда использован json server
 
 # Getting Started with Create React App
 
